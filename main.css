@@ -1,0 +1,120 @@
+*{
+    overflow: hidden;
+    transition: all 150ms;
+}
+body{
+    transition: background-color 450ms;
+}
+h1{
+    font-size: 40em;
+    position: absolute;
+    bottom: -640px;
+    left: -90px;
+    color: rgba(159,62,130,.25);
+    font-family: abadi, sans-serif;
+    font-weight: 800;
+    
+}
+img{
+    position: absolute;
+    width: 50em;
+    top: -250px;
+    right: -250px;
+    opacity: 25%;
+}
+.paramain{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.paramaintext{
+    text-align: left;
+    font-family: abadi, sans-serif;
+}
+h2{
+    font-weight: 800;
+    font-size: 2.5em;
+    color: rgba(159,62,130);
+}
+p{
+    font-weight: 400;
+    font-size: 1.75em;
+}
+.bold{
+    font-weight: 800;
+    color: rgba(159,62,130);
+}
+a{
+    color: unset;
+    font-weight: 800;
+    text-decoration: none;
+    font-style: italic;
+}
+.hover:hover{
+    opacity: 25%;
+}
+button{
+    background:none;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+svg path{
+    width: 50px;
+    height: 50px;
+}
+.night {
+background-color: black;
+color: white;
+fill: white;
+}
+
+
+@media only screen and (max-width:1000px) {
+    h1{
+        font-size: 30em;
+        bottom: -485px;
+        left: -60px;
+    }
+    img{
+        width: 30em;
+        top: -150px;
+        right: -150px;
+        opacity: 25%;
+    }
+}
+@media only screen and (max-width:750px) {
+    h1{
+        font-size: 20em;
+        bottom: -320px;
+        left: -40px;
+    }
+    img{
+        width: 20em;
+        top: -100px;
+        right: -100px;
+        opacity: 25%;
+    }
+}
+@media only screen and (max-width:500px) {
+    h1{
+        font-size: 15em;
+        bottom: -240px;
+        left: -30px;
+    }
+    img{
+        width: 20em;
+        top: -100px;
+        right: -100px;
+        opacity: 25%;
+    }
+    
+    button svg path{
+        width: 500px;
+    }
+    button svg .hover:hover{
+        opacity: 100%;
+    }
+}
